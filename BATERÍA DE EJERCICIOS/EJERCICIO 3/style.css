@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section > div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+section > div > button {
+  margin: 50px;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(237, 194, 115);
+  border: solid black 2px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#removeLast {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  background-color: rgb(158, 79, 79);
+}
+
+img {
+  border-radius: 20px;
+}
+
+img:hover {
+  filter: grayscale(100%);
+}
